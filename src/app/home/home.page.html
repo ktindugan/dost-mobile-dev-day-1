@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cards
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cards</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div>
+
+    <ion-card routerLink="/recipe/1">
+      <img alt="Bicol Express" src="assets/img/bicol_express.jpeg" />
+      <ion-card-header>
+        <ion-card-title>Bicol Express</ion-card-title>
+        <ion-card-subtitle>A Filipino Food</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        A spicy Filipino dish.
+      </ion-card-content>
+
+      <ion-button fill="clear">MORE</ion-button>
+    </ion-card>
+
+    <ion-card routerLink="/recipe/2">
+      <img alt="Tinola" src="assets/img/tinola.jpeg" />
+      <ion-card-header>
+        <ion-card-title>Tinola</ion-card-title>
+        <ion-card-subtitle>A Filipino Food</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        Filipino soup dish with typically chicken as the main dish cooked in a ginger broth.
+      </ion-card-content>
+      <ion-button fill="clear">MORE</ion-button>
+    </ion-card>
+
+    <ion-card routerLink="/recipe/3">
+      <img alt="Lumpiang Shanghai" src="assets/img/lumpia.jpg" />
+      <ion-card-header>
+        <ion-card-title>Lumpiang Shanghai</ion-card-title>
+        <ion-card-subtitle>A Filipino fried dish.</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        The best Filipino dish.
+      </ion-card-content>
+      <ion-button fill="clear">MORE</ion-button>
+    </ion-card>
+
+  </div>
+</ion-content>
